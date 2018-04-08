@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30A67C6B206B83690026C3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A67C6A206B83690026C3B3 /* AppDelegate.swift */; };
+		30A67C6D206B83690026C3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A67C6C206B83690026C3B3 /* ViewController.swift */; };
+		30A67C70206B83690026C3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A67C6E206B83690026C3B3 /* Main.storyboard */; };
+		30A67C72206B83690026C3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A67C71206B83690026C3B3 /* Assets.xcassets */; };
+		30A67C75206B83690026C3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A67C73206B83690026C3B3 /* LaunchScreen.storyboard */; };
+		30A67C80206B83690026C3B3 /* MTAVPlayerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A67C7F206B83690026C3B3 /* MTAVPlayerDemoTests.swift */; };
+		30A67C8B206B83690026C3B3 /* MTAVPlayerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A67C8A206B83690026C3B3 /* MTAVPlayerDemoUITests.swift */; };
+		30A67C9E206B867F0026C3B3 /* MTAVPlayerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A67C9D206B83A20026C3B3 /* MTAVPlayerView.framework */; };
+		30A67C9F206B867F0026C3B3 /* MTAVPlayerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30A67C9D206B83A20026C3B3 /* MTAVPlayerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30A67CA6206B8AE80026C3B3 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 30A67CA5206B8AE80026C3B3 /* test.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30A67C7C206B83690026C3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A67C5F206B83690026C3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A67C66206B83690026C3B3;
+			remoteInfo = MTAVPlayerDemo;
+		};
+		30A67C87206B83690026C3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A67C5F206B83690026C3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A67C66206B83690026C3B3;
+			remoteInfo = MTAVPlayerDemo;
+		};
+		30A67C9C206B83A20026C3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A67C98206B83950026C3B3 /* MTAVPlayerView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 30A67C4F206B7AAC0026C3B3;
+			remoteInfo = MTAVPlayerView;
+		};
+		30A67CA0206B867F0026C3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A67C98206B83950026C3B3 /* MTAVPlayerView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A67C4E206B7AAB0026C3B3;
+			remoteInfo = MTAVPlayerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30A67CA2206B867F0026C3B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30A67C9F206B867F0026C3B3 /* MTAVPlayerView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30A67C67206B83690026C3B3 /* MTAVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTAVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A67C6A206B83690026C3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30A67C6C206B83690026C3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30A67C6F206B83690026C3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30A67C71206B83690026C3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A67C74206B83690026C3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30A67C76206B83690026C3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A67C7B206B83690026C3B3 /* MTAVPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTAVPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A67C7F206B83690026C3B3 /* MTAVPlayerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTAVPlayerDemoTests.swift; sourceTree = "<group>"; };
+		30A67C81206B83690026C3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A67C86206B83690026C3B3 /* MTAVPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTAVPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A67C8A206B83690026C3B3 /* MTAVPlayerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTAVPlayerDemoUITests.swift; sourceTree = "<group>"; };
+		30A67C8C206B83690026C3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A67C98206B83950026C3B3 /* MTAVPlayerView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MTAVPlayerView.xcodeproj; path = ../MTAVPlayerView/MTAVPlayerView.xcodeproj; sourceTree = "<group>"; };
+		30A67CA5206B8AE80026C3B3 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A67C64206B83690026C3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A67C9E206B867F0026C3B3 /* MTAVPlayerView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A67C78206B83690026C3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A67C83206B83690026C3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A67C5E206B83690026C3B3 = {
+			isa = PBXGroup;
+			children = (
+				30A67C98206B83950026C3B3 /* MTAVPlayerView.xcodeproj */,
+				30A67C69206B83690026C3B3 /* MTAVPlayerDemo */,
+				30A67C7E206B83690026C3B3 /* MTAVPlayerDemoTests */,
+				30A67C89206B83690026C3B3 /* MTAVPlayerDemoUITests */,
+				30A67C68206B83690026C3B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30A67C68206B83690026C3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A67C67206B83690026C3B3 /* MTAVPlayerDemo.app */,
+				30A67C7B206B83690026C3B3 /* MTAVPlayerDemoTests.xctest */,
+				30A67C86206B83690026C3B3 /* MTAVPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A67C69206B83690026C3B3 /* MTAVPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				30A67CA5206B8AE80026C3B3 /* test.mp4 */,
+				30A67C6A206B83690026C3B3 /* AppDelegate.swift */,
+				30A67C6C206B83690026C3B3 /* ViewController.swift */,
+				30A67C6E206B83690026C3B3 /* Main.storyboard */,
+				30A67C71206B83690026C3B3 /* Assets.xcassets */,
+				30A67C73206B83690026C3B3 /* LaunchScreen.storyboard */,
+				30A67C76206B83690026C3B3 /* Info.plist */,
+			);
+			path = MTAVPlayerDemo;
+			sourceTree = "<group>";
+		};
+		30A67C7E206B83690026C3B3 /* MTAVPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				30A67C7F206B83690026C3B3 /* MTAVPlayerDemoTests.swift */,
+				30A67C81206B83690026C3B3 /* Info.plist */,
+			);
+			path = MTAVPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		30A67C89206B83690026C3B3 /* MTAVPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30A67C8A206B83690026C3B3 /* MTAVPlayerDemoUITests.swift */,
+				30A67C8C206B83690026C3B3 /* Info.plist */,
+			);
+			path = MTAVPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		30A67C99206B83950026C3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A67C9D206B83A20026C3B3 /* MTAVPlayerView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30A67C66206B83690026C3B3 /* MTAVPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A67C8F206B83690026C3B3 /* Build configuration list for PBXNativeTarget "MTAVPlayerDemo" */;
+			buildPhases = (
+				30A67C63206B83690026C3B3 /* Sources */,
+				30A67C64206B83690026C3B3 /* Frameworks */,
+				30A67C65206B83690026C3B3 /* Resources */,
+				30A67CA2206B867F0026C3B3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A67CA1206B867F0026C3B3 /* PBXTargetDependency */,
+			);
+			name = MTAVPlayerDemo;
+			productName = MTAVPlayerDemo;
+			productReference = 30A67C67206B83690026C3B3 /* MTAVPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30A67C7A206B83690026C3B3 /* MTAVPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A67C92206B83690026C3B3 /* Build configuration list for PBXNativeTarget "MTAVPlayerDemoTests" */;
+			buildPhases = (
+				30A67C77206B83690026C3B3 /* Sources */,
+				30A67C78206B83690026C3B3 /* Frameworks */,
+				30A67C79206B83690026C3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A67C7D206B83690026C3B3 /* PBXTargetDependency */,
+			);
+			name = MTAVPlayerDemoTests;
+			productName = MTAVPlayerDemoTests;
+			productReference = 30A67C7B206B83690026C3B3 /* MTAVPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30A67C85206B83690026C3B3 /* MTAVPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A67C95206B83690026C3B3 /* Build configuration list for PBXNativeTarget "MTAVPlayerDemoUITests" */;
+			buildPhases = (
+				30A67C82206B83690026C3B3 /* Sources */,
+				30A67C83206B83690026C3B3 /* Frameworks */,
+				30A67C84206B83690026C3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A67C88206B83690026C3B3 /* PBXTargetDependency */,
+			);
+			name = MTAVPlayerDemoUITests;
+			productName = MTAVPlayerDemoUITests;
+			productReference = 30A67C86206B83690026C3B3 /* MTAVPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30A67C5F206B83690026C3B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Nolan;
+				TargetAttributes = {
+					30A67C66206B83690026C3B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					30A67C7A206B83690026C3B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30A67C66206B83690026C3B3;
+					};
+					30A67C85206B83690026C3B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30A67C66206B83690026C3B3;
+					};
+				};
+			};
+			buildConfigurationList = 30A67C62206B83690026C3B3 /* Build configuration list for PBXProject "MTAVPlayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30A67C5E206B83690026C3B3;
+			productRefGroup = 30A67C68206B83690026C3B3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 30A67C99206B83950026C3B3 /* Products */;
+					ProjectRef = 30A67C98206B83950026C3B3 /* MTAVPlayerView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				30A67C66206B83690026C3B3 /* MTAVPlayerDemo */,
+				30A67C7A206B83690026C3B3 /* MTAVPlayerDemoTests */,
+				30A67C85206B83690026C3B3 /* MTAVPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		30A67C9D206B83A20026C3B3 /* MTAVPlayerView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MTAVPlayerView.framework;
+			remoteRef = 30A67C9C206B83A20026C3B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A67C65206B83690026C3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A67C75206B83690026C3B3 /* LaunchScreen.storyboard in Resources */,
+				30A67C72206B83690026C3B3 /* Assets.xcassets in Resources */,
+				30A67C70206B83690026C3B3 /* Main.storyboard in Resources */,
+				30A67CA6206B8AE80026C3B3 /* test.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A67C79206B83690026C3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A67C84206B83690026C3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A67C63206B83690026C3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A67C6D206B83690026C3B3 /* ViewController.swift in Sources */,
+				30A67C6B206B83690026C3B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A67C77206B83690026C3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A67C80206B83690026C3B3 /* MTAVPlayerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A67C82206B83690026C3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A67C8B206B83690026C3B3 /* MTAVPlayerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30A67C7D206B83690026C3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A67C66206B83690026C3B3 /* MTAVPlayerDemo */;
+			targetProxy = 30A67C7C206B83690026C3B3 /* PBXContainerItemProxy */;
+		};
+		30A67C88206B83690026C3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A67C66206B83690026C3B3 /* MTAVPlayerDemo */;
+			targetProxy = 30A67C87206B83690026C3B3 /* PBXContainerItemProxy */;
+		};
+		30A67CA1206B867F0026C3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTAVPlayerView;
+			targetProxy = 30A67CA0206B867F0026C3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30A67C6E206B83690026C3B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A67C6F206B83690026C3B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30A67C73206B83690026C3B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A67C74206B83690026C3B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30A67C8D206B83690026C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30A67C8E206B83690026C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30A67C90206B83690026C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82XGZDMK99;
+				INFOPLIST_FILE = MTAVPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolan.www.MTAVPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30A67C91206B83690026C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82XGZDMK99;
+				INFOPLIST_FILE = MTAVPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolan.www.MTAVPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30A67C93206B83690026C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82XGZDMK99;
+				INFOPLIST_FILE = MTAVPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolan.www.MTAVPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTAVPlayerDemo.app/MTAVPlayerDemo";
+			};
+			name = Debug;
+		};
+		30A67C94206B83690026C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82XGZDMK99;
+				INFOPLIST_FILE = MTAVPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolan.www.MTAVPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTAVPlayerDemo.app/MTAVPlayerDemo";
+			};
+			name = Release;
+		};
+		30A67C96206B83690026C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82XGZDMK99;
+				INFOPLIST_FILE = MTAVPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolan.www.MTAVPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTAVPlayerDemo;
+			};
+			name = Debug;
+		};
+		30A67C97206B83690026C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82XGZDMK99;
+				INFOPLIST_FILE = MTAVPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolan.www.MTAVPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTAVPlayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A67C62206B83690026C3B3 /* Build configuration list for PBXProject "MTAVPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A67C8D206B83690026C3B3 /* Debug */,
+				30A67C8E206B83690026C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A67C8F206B83690026C3B3 /* Build configuration list for PBXNativeTarget "MTAVPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A67C90206B83690026C3B3 /* Debug */,
+				30A67C91206B83690026C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A67C92206B83690026C3B3 /* Build configuration list for PBXNativeTarget "MTAVPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A67C93206B83690026C3B3 /* Debug */,
+				30A67C94206B83690026C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A67C95206B83690026C3B3 /* Build configuration list for PBXNativeTarget "MTAVPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A67C96206B83690026C3B3 /* Debug */,
+				30A67C97206B83690026C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30A67C5F206B83690026C3B3 /* Project object */;
+}

@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/nolan/Library/Developer/Xcode/DerivedData/MTAVPlayerDemo-gfhjjyeuzgnfawdyqgddeinwyhsn/Build/Products/Debug-iphonesimulator/MTAVPlayerView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MTAVPlayerView-Swift.h",
+          'external-contents': "/Users/nolan/Library/Developer/Xcode/DerivedData/MTAVPlayerDemo-gfhjjyeuzgnfawdyqgddeinwyhsn/Build/Products/Debug-iphonesimulator/MTAVPlayerView.framework/Headers/MTAVPlayerView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MTAVPlayerView.h",
+          'external-contents': "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView/MTAVPlayerView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nolan/Library/Developer/Xcode/DerivedData/MTAVPlayerDemo-gfhjjyeuzgnfawdyqgddeinwyhsn/Build/Products/Debug-iphonesimulator/MTAVPlayerView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/build/MTAVPlayerView.build/Debug-iphonesimulator/MTAVPlayerView.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

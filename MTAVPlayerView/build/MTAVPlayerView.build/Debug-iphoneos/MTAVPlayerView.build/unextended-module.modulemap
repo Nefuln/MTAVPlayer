@@ -1,0 +1,10 @@
+framework module MTAVPlayerView {
+  umbrella header "MTAVPlayerView.h"
+
+  export *
+  module * { export * }
+}
+
+module MTAVPlayerView.__Swift {
+    exclude header "MTAVPlayerView-Swift.h"
+}

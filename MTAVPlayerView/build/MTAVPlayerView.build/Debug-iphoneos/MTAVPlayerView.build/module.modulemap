@@ -1,0 +1,11 @@
+framework module MTAVPlayerView {
+  umbrella header "MTAVPlayerView.h"
+
+  export *
+  module * { export * }
+}
+
+module MTAVPlayerView.Swift {
+    header "MTAVPlayerView-Swift.h"
+    requires objc
+}

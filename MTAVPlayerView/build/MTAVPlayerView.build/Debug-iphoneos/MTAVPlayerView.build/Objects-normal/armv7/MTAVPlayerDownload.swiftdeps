@@ -1,0 +1,589 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MTAVPlayerDownloadErrorType"
+- "MTAVPlayerDownload"
+provides-nominal:
+- "14MTAVPlayerView0A17DownloadErrorTypeO"
+- "14MTAVPlayerView0A8DownloadC"
+provides-member:
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", ""]
+- ["14MTAVPlayerView0A8DownloadC", ""]
+provides-dynamic-lookup:
+- "urlSession"
+depends-top-level:
+- !private "!="
+- !private "/"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- !private "DispatchQueue"
+- "Double"
+- "Error"
+- !private "FileManager"
+- "Int"
+- "Int64"
+- "MTAVPlayerDownload"
+- "MTAVPlayerDownloadErrorType"
+- "NSError"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "URL"
+- "URLSession"
+- !private "URLSessionConfiguration"
+- "URLSessionDownloadDelegate"
+- "URLSessionDownloadTask"
+- "URLSessionTask"
+- "Void"
+- !private "debugPrint"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "MTAVPlayerDownloadErrorType"]
+- !private ["s7CVarArgP", "NSError"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "URLSessionConfiguration"]
+- ["s7CVarArgP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "completionBlock"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "downloadTask"]
+- !private ["s7CVarArgP", "errorDomain"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "moveItem"]
+- !private ["s7CVarArgP", "progressBlock"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "session"]
+- !private ["s7CVarArgP", "toPath"]
+- ["s7CVarArgP", "urlSession"]
+- ["s7CVarArgP", "urlSessionDidFinishEvents"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "MTAVPlayerDownloadErrorType"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "completionBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadTask"]
+- !private ["s28CustomDebugStringConvertibleP", "errorDomain"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "moveItem"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "progressBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "session"]
+- !private ["s28CustomDebugStringConvertibleP", "toPath"]
+- ["s28CustomDebugStringConvertibleP", "urlSession"]
+- ["s28CustomDebugStringConvertibleP", "urlSessionDidFinishEvents"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "MTAVPlayerDownloadErrorType"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "URLSessionConfiguration"]
+- ["s23CustomStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "completionBlock"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "downloadTask"]
+- !private ["s23CustomStringConvertibleP", "errorDomain"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "moveItem"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "progressBlock"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "session"]
+- !private ["s23CustomStringConvertibleP", "toPath"]
+- ["s23CustomStringConvertibleP", "urlSession"]
+- ["s23CustomStringConvertibleP", "urlSessionDidFinishEvents"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "path"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "path"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "FileManager"]
+- !private ["s9EquatableP", "MTAVPlayerDownloadErrorType"]
+- !private ["s9EquatableP", "NSError"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "URL"]
+- ["s9EquatableP", "URLSession"]
+- !private ["s9EquatableP", "URLSessionConfiguration"]
+- ["s9EquatableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "completionBlock"]
+- !private ["s9EquatableP", "debugPrint"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "downloadError"]
+- !private ["s9EquatableP", "downloadTask"]
+- !private ["s9EquatableP", "errorDomain"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "moveItem"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "pathError"]
+- !private ["s9EquatableP", "progressBlock"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "saveError"]
+- !private ["s9EquatableP", "session"]
+- !private ["s9EquatableP", "toPath"]
+- ["s9EquatableP", "urlSession"]
+- ["s9EquatableP", "urlSessionDidFinishEvents"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "moveItem"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "FileManager"]
+- !private ["s8HashableP", "MTAVPlayerDownloadErrorType"]
+- !private ["s8HashableP", "NSError"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "URL"]
+- ["s8HashableP", "URLSession"]
+- !private ["s8HashableP", "URLSessionConfiguration"]
+- ["s8HashableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "completionBlock"]
+- !private ["s8HashableP", "debugPrint"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "downloadError"]
+- !private ["s8HashableP", "downloadTask"]
+- !private ["s8HashableP", "errorDomain"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "moveItem"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "pathError"]
+- !private ["s8HashableP", "progressBlock"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "saveError"]
+- !private ["s8HashableP", "session"]
+- !private ["s8HashableP", "toPath"]
+- ["s8HashableP", "urlSession"]
+- ["s8HashableP", "urlSessionDidFinishEvents"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["14MTAVPlayerView0A8DownloadC", "Bool"]
+- !private ["14MTAVPlayerView0A8DownloadC", "DispatchQueue"]
+- ["14MTAVPlayerView0A8DownloadC", "Double"]
+- ["14MTAVPlayerView0A8DownloadC", "Error"]
+- !private ["14MTAVPlayerView0A8DownloadC", "FileManager"]
+- ["14MTAVPlayerView0A8DownloadC", "Int64"]
+- ["14MTAVPlayerView0A8DownloadC", "MTAVPlayerCompletionBlock"]
+- !private ["14MTAVPlayerView0A8DownloadC", "MTAVPlayerDownloadErrorType"]
+- ["14MTAVPlayerView0A8DownloadC", "MTAVPlayerProgressBlock"]
+- ["14MTAVPlayerView0A8DownloadC", "NSError"]
+- ["14MTAVPlayerView0A8DownloadC", "String"]
+- ["14MTAVPlayerView0A8DownloadC", "URL"]
+- ["14MTAVPlayerView0A8DownloadC", "URLSession"]
+- !private ["14MTAVPlayerView0A8DownloadC", "URLSessionConfiguration"]
+- ["14MTAVPlayerView0A8DownloadC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["14MTAVPlayerView0A8DownloadC", "URLSessionDownloadTask"]
+- ["14MTAVPlayerView0A8DownloadC", "URLSessionTask"]
+- ["14MTAVPlayerView0A8DownloadC", "Void"]
+- !private ["14MTAVPlayerView0A8DownloadC", "completionBlock"]
+- !private ["14MTAVPlayerView0A8DownloadC", "debugPrint"]
+- ["14MTAVPlayerView0A8DownloadC", "deinit"]
+- ["14MTAVPlayerView0A8DownloadC", "download"]
+- !private ["14MTAVPlayerView0A8DownloadC", "errorDomain"]
+- ["14MTAVPlayerView0A8DownloadC", "init"]
+- !private ["14MTAVPlayerView0A8DownloadC", "progressBlock"]
+- !private ["14MTAVPlayerView0A8DownloadC", "session"]
+- !private ["14MTAVPlayerView0A8DownloadC", "session.storage"]
+- !private ["14MTAVPlayerView0A8DownloadC", "toPath"]
+- ["14MTAVPlayerView0A8DownloadC", "urlSession"]
+- ["14MTAVPlayerView0A8DownloadC", "urlSessionDidFinishEvents"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "RawValue"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "deinit"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "downloadError"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "hashValue"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "init"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "pathError"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "rawValue"]
+- ["14MTAVPlayerView0A17DownloadErrorTypeO", "saveError"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "default"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So7NSErrorC", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "Int64"]
+- ["So8NSObjectC", "MTAVPlayerCompletionBlock"]
+- !private ["So8NSObjectC", "MTAVPlayerDownloadErrorType"]
+- ["So8NSObjectC", "MTAVPlayerProgressBlock"]
+- ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "URLSessionConfiguration"]
+- ["So8NSObjectC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So8NSObjectC", "URLSessionDownloadTask"]
+- ["So8NSObjectC", "URLSessionTask"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "completionBlock"]
+- !private ["So8NSObjectC", "debugPrint"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "download"]
+- !private ["So8NSObjectC", "downloadTask"]
+- ["So8NSObjectC", "errorDomain"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "moveItem"]
+- ["So8NSObjectC", "progressBlock"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "session.storage"]
+- ["So8NSObjectC", "toPath"]
+- ["So8NSObjectC", "urlSession"]
+- ["So8NSObjectC", "urlSessionDidFinishEvents"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "FileManager"]
+- !private ["So16NSObjectProtocolP", "MTAVPlayerDownloadErrorType"]
+- !private ["So16NSObjectProtocolP", "NSError"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- ["So16NSObjectProtocolP", "URLSession"]
+- !private ["So16NSObjectProtocolP", "URLSessionConfiguration"]
+- ["So16NSObjectProtocolP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "completionBlock"]
+- !private ["So16NSObjectProtocolP", "debugPrint"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "downloadTask"]
+- !private ["So16NSObjectProtocolP", "errorDomain"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "moveItem"]
+- !private ["So16NSObjectProtocolP", "progressBlock"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "session"]
+- !private ["So16NSObjectProtocolP", "toPath"]
+- ["So16NSObjectProtocolP", "urlSession"]
+- ["So16NSObjectProtocolP", "urlSessionDidFinishEvents"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So17ProgressReportingP", "resume"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "downloadError"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "pathError"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "saveError"]
+- ["s16RawRepresentableP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["So10URLSessionC", "downloadTask"]
+- !private ["So10URLSessionC", "init"]
+- !private ["So23URLSessionConfigurationC", "default"]
+- !private ["So18URLSessionDelegateP", "DispatchQueue"]
+- !private ["So18URLSessionDelegateP", "Double"]
+- !private ["So18URLSessionDelegateP", "FileManager"]
+- !private ["So18URLSessionDelegateP", "MTAVPlayerDownloadErrorType"]
+- !private ["So18URLSessionDelegateP", "NSError"]
+- !private ["So18URLSessionDelegateP", "URL"]
+- ["So18URLSessionDelegateP", "URLSession"]
+- !private ["So18URLSessionDelegateP", "URLSessionConfiguration"]
+- ["So18URLSessionDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So18URLSessionDelegateP", "completionBlock"]
+- !private ["So18URLSessionDelegateP", "debugPrint"]
+- !private ["So18URLSessionDelegateP", "errorDomain"]
+- !private ["So18URLSessionDelegateP", "progressBlock"]
+- !private ["So18URLSessionDelegateP", "session"]
+- !private ["So18URLSessionDelegateP", "toPath"]
+- ["So18URLSessionDelegateP", "urlSession"]
+- ["So18URLSessionDelegateP", "urlSessionDidFinishEvents"]
+- ["So18URLSessionDelegateP", ""]
+- !private ["So26URLSessionDownloadDelegateP", "DispatchQueue"]
+- !private ["So26URLSessionDownloadDelegateP", "Double"]
+- !private ["So26URLSessionDownloadDelegateP", "FileManager"]
+- !private ["So26URLSessionDownloadDelegateP", "MTAVPlayerDownloadErrorType"]
+- !private ["So26URLSessionDownloadDelegateP", "NSError"]
+- !private ["So26URLSessionDownloadDelegateP", "URL"]
+- ["So26URLSessionDownloadDelegateP", "URLSession"]
+- !private ["So26URLSessionDownloadDelegateP", "URLSessionConfiguration"]
+- ["So26URLSessionDownloadDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So26URLSessionDownloadDelegateP", "completionBlock"]
+- !private ["So26URLSessionDownloadDelegateP", "debugPrint"]
+- !private ["So26URLSessionDownloadDelegateP", "errorDomain"]
+- !private ["So26URLSessionDownloadDelegateP", "progressBlock"]
+- !private ["So26URLSessionDownloadDelegateP", "session"]
+- !private ["So26URLSessionDownloadDelegateP", "toPath"]
+- ["So26URLSessionDownloadDelegateP", "urlSession"]
+- ["So26URLSessionDownloadDelegateP", "urlSessionDidFinishEvents"]
+- ["So26URLSessionDownloadDelegateP", ""]
+- !private ["So22URLSessionDownloadTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["So22URLSessionTaskDelegateP", "DispatchQueue"]
+- !private ["So22URLSessionTaskDelegateP", "Double"]
+- !private ["So22URLSessionTaskDelegateP", "FileManager"]
+- !private ["So22URLSessionTaskDelegateP", "MTAVPlayerDownloadErrorType"]
+- !private ["So22URLSessionTaskDelegateP", "NSError"]
+- !private ["So22URLSessionTaskDelegateP", "URL"]
+- ["So22URLSessionTaskDelegateP", "URLSession"]
+- !private ["So22URLSessionTaskDelegateP", "URLSessionConfiguration"]
+- ["So22URLSessionTaskDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So22URLSessionTaskDelegateP", "completionBlock"]
+- !private ["So22URLSessionTaskDelegateP", "debugPrint"]
+- !private ["So22URLSessionTaskDelegateP", "errorDomain"]
+- !private ["So22URLSessionTaskDelegateP", "progressBlock"]
+- !private ["So22URLSessionTaskDelegateP", "session"]
+- !private ["So22URLSessionTaskDelegateP", "toPath"]
+- ["So22URLSessionTaskDelegateP", "urlSession"]
+- ["So22URLSessionTaskDelegateP", "urlSessionDidFinishEvents"]
+- ["So22URLSessionTaskDelegateP", ""]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerDownloadErrorType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completionBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "errorDomain"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moveItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progressBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSessionDidFinishEvents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s11_StrideableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11FileManagerC"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "14MTAVPlayerView0A8DownloadC"
+- "14MTAVPlayerView0A17DownloadErrorTypeO"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "So17ProgressReportingP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "So10URLSessionC"
+- !private "So23URLSessionConfigurationC"
+- "So18URLSessionDelegateP"
+- "So26URLSessionDownloadDelegateP"
+- !private "So22URLSessionDownloadTaskC"
+- !private "So14URLSessionTaskC"
+- "So22URLSessionTaskDelegateP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView/MTAVPlayerView.h"
+- "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/build/MTAVPlayerView.build/Debug-iphoneos/MTAVPlayerView.build/unextended-module.modulemap"
+interface-hash: "e2d36ef9637198e18a2f08411db226fb"

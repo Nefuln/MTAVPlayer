@@ -1,0 +1,878 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MTAVPlayerError"
+- "MTAVPlayerDelegate"
+- "MTAVPlayerPlayStartNotification"
+- "MTAVPlayerPlayPauseNotification"
+- "MTAVPlayerPlayFinishNotification"
+- "MTAVPlayerManager"
+provides-nominal:
+- "14MTAVPlayerView0A5ErrorO"
+- "14MTAVPlayerView0A8DelegateP"
+- "14MTAVPlayerView0A7ManagerC"
+provides-member:
+- ["14MTAVPlayerView0A5ErrorO", ""]
+- ["14MTAVPlayerView0A8DelegateP", ""]
+- ["14MTAVPlayerView0A7ManagerC", ""]
+- ["14MTAVPlayerView0A8DelegateP", "playFinished"]
+- ["14MTAVPlayerView0A8DelegateP", "loadProgess"]
+- ["14MTAVPlayerView0A8DelegateP", "playProgess"]
+- ["14MTAVPlayerView0A8DelegateP", "unablePlay"]
+- ["14MTAVPlayerView0A7ManagerC", "updateNativeVedio"]
+- ["14MTAVPlayerView0A7ManagerC", "updateOnlineVeido"]
+- ["14MTAVPlayerView0A7ManagerC", "startPlay"]
+- ["14MTAVPlayerView0A7ManagerC", "pause"]
+- ["14MTAVPlayerView0A7ManagerC", "stop"]
+provides-dynamic-lookup:
+- "handleNotificationForPlayFinished"
+- "observeValue"
+depends-top-level:
+- !private "!="
+- !private "+"
+- "=="
+- !private "??"
+- "AVPlayer"
+- "AVPlayerItem"
+- "AVPlayerLayer"
+- !private "AVPlayerStatus"
+- !private "AVURLAsset"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CMTime"
+- !private "CMTimeGetSeconds"
+- !private "CMTimeRange"
+- !private "CMTimeScale"
+- !private "CastingPrecedence"
+- !private "Dictionary"
+- !private "DispatchQueue"
+- "Float64"
+- "Int"
+- "MTAVPlayerDelegate"
+- "MTAVPlayerError"
+- "MTAVPlayerManager"
+- "MTAVPlayerPlayFinishNotification"
+- "MTAVPlayerPlayPauseNotification"
+- "MTAVPlayerPlayStartNotification"
+- "NSKeyValueChangeKey"
+- !private "NSNotification"
+- "NSObject"
+- "NSObjectProtocol"
+- "Notification"
+- !private "NotificationCenter"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "UnicodeScalarType"
+- "UnsafeMutableRawPointer"
+- !private "debugPrint"
+- !private "kCMTimeZero"
+- !private "~="
+depends-member:
+- !private ["So7AVAssetC", "init"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "init"]
+- !private ["So21AVContentKeyRecipientP", "init"]
+- !private ["So8AVPlayerC", "addPeriodicTimeObserver"]
+- ["So8AVPlayerC", "init"]
+- !private ["So8AVPlayerC", "pause"]
+- !private ["So8AVPlayerC", "play"]
+- !private ["So8AVPlayerC", "replaceCurrentItem"]
+- !private ["So12AVPlayerItemC", "addObserver"]
+- !private ["So12AVPlayerItemC", "currentTime"]
+- !private ["So12AVPlayerItemC", "duration"]
+- !private ["So12AVPlayerItemC", "init"]
+- !private ["So12AVPlayerItemC", "seek"]
+- !private ["SC14AVPlayerStatusO", "failed"]
+- !private ["SC14AVPlayerStatusO", "init"]
+- !private ["SC14AVPlayerStatusO", "readyToPlay"]
+- !private ["SC14AVPlayerStatusO", "unknown"]
+- !private ["So10AVURLAssetC", "init"]
+- !private ["Sa", "first"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC6CMTimeV", "init"]
+- !private ["SC11CMTimeRangeV", "duration"]
+- !private ["SC11CMTimeRangeV", "start"]
+- ["s7CVarArgP", "AVPlayer"]
+- !private ["s7CVarArgP", "AVPlayerItem"]
+- !private ["s7CVarArgP", "AVPlayerStatus"]
+- !private ["s7CVarArgP", "AVURLAsset"]
+- !private ["s7CVarArgP", "CMTime"]
+- !private ["s7CVarArgP", "CMTimeGetSeconds"]
+- !private ["s7CVarArgP", "CMTimeScale"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "MTAVPlayerManager"]
+- !private ["s7CVarArgP", "MTAVPlayerPlayFinishNotification"]
+- !private ["s7CVarArgP", "MTAVPlayerPlayPauseNotification"]
+- !private ["s7CVarArgP", "MTAVPlayerPlayStartNotification"]
+- !private ["s7CVarArgP", "NSKeyValueChangeKey"]
+- !private ["s7CVarArgP", "NSNotification"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "_isPlaying"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "addObservers"]
+- !private ["s7CVarArgP", "addObserversForPlayerItem"]
+- !private ["s7CVarArgP", "addPeriodicTimeObserver"]
+- !private ["s7CVarArgP", "currentTime"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "handleNotificationForPlayFinished"]
+- !private ["s7CVarArgP", "handleObserveValueForLoadedTimeRanges"]
+- !private ["s7CVarArgP", "handleObserveValueForStatus"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isPlaying"]
+- !private ["s7CVarArgP", "kCMTimeZero"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "monitoringPlayProgress"]
+- !private ["s7CVarArgP", "pause"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "playTimeObserver"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "playerItem"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "removeObservers"]
+- !private ["s7CVarArgP", "replaceCurrentItem"]
+- !private ["s7CVarArgP", "seek"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "vedioUrl"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "AVPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "AVPlayerItem"]
+- !private ["s28CustomDebugStringConvertibleP", "AVPlayerStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "AVURLAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTime"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTimeGetSeconds"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTimeScale"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "MTAVPlayerManager"]
+- !private ["s28CustomDebugStringConvertibleP", "MTAVPlayerPlayFinishNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "MTAVPlayerPlayPauseNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "MTAVPlayerPlayStartNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "NSKeyValueChangeKey"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotification"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "_isPlaying"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "addObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserversForPlayerItem"]
+- !private ["s28CustomDebugStringConvertibleP", "addPeriodicTimeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "currentTime"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "handleNotificationForPlayFinished"]
+- !private ["s28CustomDebugStringConvertibleP", "handleObserveValueForLoadedTimeRanges"]
+- !private ["s28CustomDebugStringConvertibleP", "handleObserveValueForStatus"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isPlaying"]
+- !private ["s28CustomDebugStringConvertibleP", "kCMTimeZero"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "monitoringPlayProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "pause"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "playTimeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "playerItem"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceCurrentItem"]
+- !private ["s28CustomDebugStringConvertibleP", "seek"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unknown"]
+- !private ["s28CustomDebugStringConvertibleP", "vedioUrl"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "unknown"]
+- ["s23CustomStringConvertibleP", "AVPlayer"]
+- !private ["s23CustomStringConvertibleP", "AVPlayerItem"]
+- !private ["s23CustomStringConvertibleP", "AVPlayerStatus"]
+- !private ["s23CustomStringConvertibleP", "AVURLAsset"]
+- !private ["s23CustomStringConvertibleP", "CMTime"]
+- !private ["s23CustomStringConvertibleP", "CMTimeGetSeconds"]
+- !private ["s23CustomStringConvertibleP", "CMTimeScale"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "MTAVPlayerManager"]
+- !private ["s23CustomStringConvertibleP", "MTAVPlayerPlayFinishNotification"]
+- !private ["s23CustomStringConvertibleP", "MTAVPlayerPlayPauseNotification"]
+- !private ["s23CustomStringConvertibleP", "MTAVPlayerPlayStartNotification"]
+- !private ["s23CustomStringConvertibleP", "NSKeyValueChangeKey"]
+- !private ["s23CustomStringConvertibleP", "NSNotification"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_isPlaying"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "addObservers"]
+- !private ["s23CustomStringConvertibleP", "addObserversForPlayerItem"]
+- !private ["s23CustomStringConvertibleP", "addPeriodicTimeObserver"]
+- !private ["s23CustomStringConvertibleP", "currentTime"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "handleNotificationForPlayFinished"]
+- !private ["s23CustomStringConvertibleP", "handleObserveValueForLoadedTimeRanges"]
+- !private ["s23CustomStringConvertibleP", "handleObserveValueForStatus"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isPlaying"]
+- !private ["s23CustomStringConvertibleP", "kCMTimeZero"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "monitoringPlayProgress"]
+- !private ["s23CustomStringConvertibleP", "pause"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "playTimeObserver"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "playerItem"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "removeObservers"]
+- !private ["s23CustomStringConvertibleP", "replaceCurrentItem"]
+- !private ["s23CustomStringConvertibleP", "seek"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "vedioUrl"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "unknown"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "unknown"]
+- ["s9EquatableP", "AVPlayer"]
+- !private ["s9EquatableP", "AVPlayerItem"]
+- !private ["s9EquatableP", "AVPlayerItemDidPlayToEndTime"]
+- !private ["s9EquatableP", "AVPlayerStatus"]
+- !private ["s9EquatableP", "AVURLAsset"]
+- !private ["s9EquatableP", "CMTime"]
+- !private ["s9EquatableP", "CMTimeGetSeconds"]
+- !private ["s9EquatableP", "CMTimeScale"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- ["s9EquatableP", "MTAVPlayerManager"]
+- !private ["s9EquatableP", "MTAVPlayerPlayFinishNotification"]
+- !private ["s9EquatableP", "MTAVPlayerPlayPauseNotification"]
+- !private ["s9EquatableP", "MTAVPlayerPlayStartNotification"]
+- !private ["s9EquatableP", "NSKeyValueChangeKey"]
+- !private ["s9EquatableP", "NSNotification"]
+- ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_isPlaying"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "addObservers"]
+- !private ["s9EquatableP", "addObserversForPlayerItem"]
+- !private ["s9EquatableP", "addPeriodicTimeObserver"]
+- !private ["s9EquatableP", "currentTime"]
+- !private ["s9EquatableP", "debugPrint"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "duration"]
+- !private ["s9EquatableP", "failed"]
+- !private ["s9EquatableP", "handleNotificationForPlayFinished"]
+- !private ["s9EquatableP", "handleObserveValueForLoadedTimeRanges"]
+- !private ["s9EquatableP", "handleObserveValueForStatus"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isPlaying"]
+- !private ["s9EquatableP", "kCMTimeZero"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "mistakePath"]
+- !private ["s9EquatableP", "monitoringPlayProgress"]
+- !private ["s9EquatableP", "new"]
+- !private ["s9EquatableP", "newKey"]
+- !private ["s9EquatableP", "pause"]
+- !private ["s9EquatableP", "play"]
+- !private ["s9EquatableP", "playTimeObserver"]
+- !private ["s9EquatableP", "player"]
+- !private ["s9EquatableP", "playerItem"]
+- !private ["s9EquatableP", "post"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "readyToPlay"]
+- !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "removeObservers"]
+- !private ["s9EquatableP", "replaceCurrentItem"]
+- !private ["s9EquatableP", "seek"]
+- !private ["s9EquatableP", "start"]
+- !private ["s9EquatableP", "stop"]
+- !private ["s9EquatableP", "unknown"]
+- !private ["s9EquatableP", "vedioUrl"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "new"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "unknown"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s8HashableP", "AVPlayer"]
+- !private ["s8HashableP", "AVPlayerItem"]
+- !private ["s8HashableP", "AVPlayerItemDidPlayToEndTime"]
+- !private ["s8HashableP", "AVPlayerStatus"]
+- !private ["s8HashableP", "AVURLAsset"]
+- !private ["s8HashableP", "CMTime"]
+- !private ["s8HashableP", "CMTimeGetSeconds"]
+- !private ["s8HashableP", "CMTimeScale"]
+- !private ["s8HashableP", "DispatchQueue"]
+- ["s8HashableP", "MTAVPlayerManager"]
+- !private ["s8HashableP", "MTAVPlayerPlayFinishNotification"]
+- !private ["s8HashableP", "MTAVPlayerPlayPauseNotification"]
+- !private ["s8HashableP", "MTAVPlayerPlayStartNotification"]
+- !private ["s8HashableP", "NSKeyValueChangeKey"]
+- !private ["s8HashableP", "NSNotification"]
+- ["s8HashableP", "Name"]
+- !private ["s8HashableP", "NotificationCenter"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_isPlaying"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "addObservers"]
+- !private ["s8HashableP", "addObserversForPlayerItem"]
+- !private ["s8HashableP", "addPeriodicTimeObserver"]
+- !private ["s8HashableP", "currentTime"]
+- !private ["s8HashableP", "debugPrint"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "duration"]
+- !private ["s8HashableP", "failed"]
+- !private ["s8HashableP", "handleNotificationForPlayFinished"]
+- !private ["s8HashableP", "handleObserveValueForLoadedTimeRanges"]
+- !private ["s8HashableP", "handleObserveValueForStatus"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isPlaying"]
+- !private ["s8HashableP", "kCMTimeZero"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "mistakePath"]
+- !private ["s8HashableP", "monitoringPlayProgress"]
+- !private ["s8HashableP", "newKey"]
+- !private ["s8HashableP", "pause"]
+- !private ["s8HashableP", "play"]
+- !private ["s8HashableP", "playTimeObserver"]
+- !private ["s8HashableP", "player"]
+- !private ["s8HashableP", "playerItem"]
+- !private ["s8HashableP", "post"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "readyToPlay"]
+- !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "removeObservers"]
+- !private ["s8HashableP", "replaceCurrentItem"]
+- !private ["s8HashableP", "seek"]
+- !private ["s8HashableP", "stop"]
+- !private ["s8HashableP", "unknown"]
+- !private ["s8HashableP", "vedioUrl"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["14MTAVPlayerView0A8DelegateP", "Float64"]
+- ["14MTAVPlayerView0A8DelegateP", "MTAVPlayerError"]
+- ["14MTAVPlayerView0A8DelegateP", "loadProgess"]
+- ["14MTAVPlayerView0A8DelegateP", "playFinished"]
+- ["14MTAVPlayerView0A8DelegateP", "playProgess"]
+- ["14MTAVPlayerView0A8DelegateP", "unablePlay"]
+- ["14MTAVPlayerView0A5ErrorO", "RawValue"]
+- ["14MTAVPlayerView0A5ErrorO", "deinit"]
+- ["14MTAVPlayerView0A5ErrorO", "failed"]
+- ["14MTAVPlayerView0A5ErrorO", "hashValue"]
+- ["14MTAVPlayerView0A5ErrorO", "init"]
+- ["14MTAVPlayerView0A5ErrorO", "mistakePath"]
+- ["14MTAVPlayerView0A5ErrorO", "rawValue"]
+- ["14MTAVPlayerView0A5ErrorO", "unknown"]
+- ["14MTAVPlayerView0A7ManagerC", "AVPlayer"]
+- ["14MTAVPlayerView0A7ManagerC", "AVPlayerItem"]
+- ["14MTAVPlayerView0A7ManagerC", "AVPlayerLayer"]
+- !private ["14MTAVPlayerView0A7ManagerC", "AVPlayerStatus"]
+- !private ["14MTAVPlayerView0A7ManagerC", "AVURLAsset"]
+- ["14MTAVPlayerView0A7ManagerC", "Bool"]
+- !private ["14MTAVPlayerView0A7ManagerC", "CMTime"]
+- !private ["14MTAVPlayerView0A7ManagerC", "CMTimeGetSeconds"]
+- !private ["14MTAVPlayerView0A7ManagerC", "CMTimeRange"]
+- !private ["14MTAVPlayerView0A7ManagerC", "CMTimeScale"]
+- !private ["14MTAVPlayerView0A7ManagerC", "DispatchQueue"]
+- ["14MTAVPlayerView0A7ManagerC", "Float64"]
+- !private ["14MTAVPlayerView0A7ManagerC", "Int"]
+- ["14MTAVPlayerView0A7ManagerC", "MTAVPlayerDelegate"]
+- ["14MTAVPlayerView0A7ManagerC", "MTAVPlayerManager"]
+- !private ["14MTAVPlayerView0A7ManagerC", "MTAVPlayerPlayFinishNotification"]
+- !private ["14MTAVPlayerView0A7ManagerC", "MTAVPlayerPlayPauseNotification"]
+- !private ["14MTAVPlayerView0A7ManagerC", "MTAVPlayerPlayStartNotification"]
+- ["14MTAVPlayerView0A7ManagerC", "NSKeyValueChangeKey"]
+- !private ["14MTAVPlayerView0A7ManagerC", "NSNotification"]
+- !private ["14MTAVPlayerView0A7ManagerC", "NotificationCenter"]
+- ["14MTAVPlayerView0A7ManagerC", "String"]
+- !private ["14MTAVPlayerView0A7ManagerC", "URL"]
+- ["14MTAVPlayerView0A7ManagerC", "UnsafeMutableRawPointer"]
+- !private ["14MTAVPlayerView0A7ManagerC", "_isPlaying"]
+- !private ["14MTAVPlayerView0A7ManagerC", "_player"]
+- !private ["14MTAVPlayerView0A7ManagerC", "addObservers"]
+- !private ["14MTAVPlayerView0A7ManagerC", "addObserversForPlayerItem"]
+- !private ["14MTAVPlayerView0A7ManagerC", "debugPrint"]
+- ["14MTAVPlayerView0A7ManagerC", "deinit"]
+- ["14MTAVPlayerView0A7ManagerC", "delegate"]
+- ["14MTAVPlayerView0A7ManagerC", "duration"]
+- !private ["14MTAVPlayerView0A7ManagerC", "handleNotificationForPlayFinished"]
+- !private ["14MTAVPlayerView0A7ManagerC", "handleObserveValueForLoadedTimeRanges"]
+- !private ["14MTAVPlayerView0A7ManagerC", "handleObserveValueForStatus"]
+- ["14MTAVPlayerView0A7ManagerC", "init"]
+- ["14MTAVPlayerView0A7ManagerC", "isPlaying"]
+- !private ["14MTAVPlayerView0A7ManagerC", "kCMTimeZero"]
+- ["14MTAVPlayerView0A7ManagerC", "manager"]
+- !private ["14MTAVPlayerView0A7ManagerC", "monitoringPlayProgress"]
+- ["14MTAVPlayerView0A7ManagerC", "observeValue"]
+- ["14MTAVPlayerView0A7ManagerC", "pause"]
+- !private ["14MTAVPlayerView0A7ManagerC", "playTimeObserver"]
+- ["14MTAVPlayerView0A7ManagerC", "player"]
+- !private ["14MTAVPlayerView0A7ManagerC", "playerItem"]
+- ["14MTAVPlayerView0A7ManagerC", "playerLayer"]
+- !private ["14MTAVPlayerView0A7ManagerC", "removeObservers"]
+- ["14MTAVPlayerView0A7ManagerC", "startPlay"]
+- ["14MTAVPlayerView0A7ManagerC", "stop"]
+- ["14MTAVPlayerView0A7ManagerC", "updateNativeVedio"]
+- ["14MTAVPlayerView0A7ManagerC", "updateOnlineVeido"]
+- ["14MTAVPlayerView0A7ManagerC", "vedioUrl"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["So8NSCodingP", "Name"]
+- ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So9NSCopyingP", "addObserver"]
+- !private ["So9NSCopyingP", "currentTime"]
+- !private ["So9NSCopyingP", "duration"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "seek"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["SC19NSKeyValueChangeKeyV", "newKey"]
+- !private ["SC26NSKeyValueObservingOptionsV", "new"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So14NSNotificationC", "Name"]
+- ["So8NSObjectC", "AVPlayer"]
+- ["So8NSObjectC", "AVPlayerItem"]
+- ["So8NSObjectC", "AVPlayerLayer"]
+- !private ["So8NSObjectC", "AVPlayerStatus"]
+- !private ["So8NSObjectC", "AVURLAsset"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CMTime"]
+- !private ["So8NSObjectC", "CMTimeGetSeconds"]
+- !private ["So8NSObjectC", "CMTimeRange"]
+- !private ["So8NSObjectC", "CMTimeScale"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Float64"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "MTAVPlayerDelegate"]
+- ["So8NSObjectC", "MTAVPlayerManager"]
+- !private ["So8NSObjectC", "MTAVPlayerPlayFinishNotification"]
+- !private ["So8NSObjectC", "MTAVPlayerPlayPauseNotification"]
+- !private ["So8NSObjectC", "MTAVPlayerPlayStartNotification"]
+- ["So8NSObjectC", "NSKeyValueChangeKey"]
+- !private ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "UnsafeMutableRawPointer"]
+- ["So8NSObjectC", "_isPlaying"]
+- ["So8NSObjectC", "_player"]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "addObservers"]
+- ["So8NSObjectC", "addObserversForPlayerItem"]
+- !private ["So8NSObjectC", "addPeriodicTimeObserver"]
+- !private ["So8NSObjectC", "currentTime"]
+- !private ["So8NSObjectC", "debugPrint"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "duration"]
+- ["So8NSObjectC", "handleNotificationForPlayFinished"]
+- ["So8NSObjectC", "handleObserveValueForLoadedTimeRanges"]
+- ["So8NSObjectC", "handleObserveValueForStatus"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isPlaying"]
+- !private ["So8NSObjectC", "kCMTimeZero"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "manager"]
+- ["So8NSObjectC", "monitoringPlayProgress"]
+- ["So8NSObjectC", "observeValue"]
+- ["So8NSObjectC", "pause"]
+- !private ["So8NSObjectC", "play"]
+- ["So8NSObjectC", "playTimeObserver"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "playerItem"]
+- ["So8NSObjectC", "playerLayer"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "removeObservers"]
+- !private ["So8NSObjectC", "replaceCurrentItem"]
+- !private ["So8NSObjectC", "seek"]
+- ["So8NSObjectC", "startPlay"]
+- ["So8NSObjectC", "stop"]
+- ["So8NSObjectC", "updateNativeVedio"]
+- ["So8NSObjectC", "updateOnlineVeido"]
+- ["So8NSObjectC", "vedioUrl"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "AVPlayer"]
+- !private ["So16NSObjectProtocolP", "AVPlayerItem"]
+- !private ["So16NSObjectProtocolP", "AVPlayerStatus"]
+- !private ["So16NSObjectProtocolP", "AVURLAsset"]
+- !private ["So16NSObjectProtocolP", "CMTime"]
+- !private ["So16NSObjectProtocolP", "CMTimeGetSeconds"]
+- !private ["So16NSObjectProtocolP", "CMTimeScale"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- ["So16NSObjectProtocolP", "Float64"]
+- ["So16NSObjectProtocolP", "MTAVPlayerError"]
+- ["So16NSObjectProtocolP", "MTAVPlayerManager"]
+- !private ["So16NSObjectProtocolP", "MTAVPlayerPlayFinishNotification"]
+- !private ["So16NSObjectProtocolP", "MTAVPlayerPlayPauseNotification"]
+- !private ["So16NSObjectProtocolP", "MTAVPlayerPlayStartNotification"]
+- !private ["So16NSObjectProtocolP", "NSKeyValueChangeKey"]
+- !private ["So16NSObjectProtocolP", "NSNotification"]
+- !private ["So16NSObjectProtocolP", "Name"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "_isPlaying"]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "addObservers"]
+- !private ["So16NSObjectProtocolP", "addObserversForPlayerItem"]
+- !private ["So16NSObjectProtocolP", "addPeriodicTimeObserver"]
+- !private ["So16NSObjectProtocolP", "currentTime"]
+- !private ["So16NSObjectProtocolP", "debugPrint"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "duration"]
+- !private ["So16NSObjectProtocolP", "handleNotificationForPlayFinished"]
+- !private ["So16NSObjectProtocolP", "handleObserveValueForLoadedTimeRanges"]
+- !private ["So16NSObjectProtocolP", "handleObserveValueForStatus"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isPlaying"]
+- !private ["So16NSObjectProtocolP", "kCMTimeZero"]
+- ["So16NSObjectProtocolP", "loadProgess"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "monitoringPlayProgress"]
+- !private ["So16NSObjectProtocolP", "pause"]
+- !private ["So16NSObjectProtocolP", "play"]
+- ["So16NSObjectProtocolP", "playFinished"]
+- ["So16NSObjectProtocolP", "playProgess"]
+- !private ["So16NSObjectProtocolP", "playTimeObserver"]
+- !private ["So16NSObjectProtocolP", "player"]
+- !private ["So16NSObjectProtocolP", "playerItem"]
+- !private ["So16NSObjectProtocolP", "post"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "removeObservers"]
+- !private ["So16NSObjectProtocolP", "replaceCurrentItem"]
+- !private ["So16NSObjectProtocolP", "seek"]
+- !private ["So16NSObjectProtocolP", "stop"]
+- ["So16NSObjectProtocolP", "unablePlay"]
+- !private ["So16NSObjectProtocolP", "vedioUrl"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["So14NSNotificationC4NameV", "AVPlayerItemDidPlayToEndTime"]
+- ["So14NSNotificationC4NameV", "init"]
+- ["10Foundation12NotificationV", "Name"]
+- !private ["So18NotificationCenterC", "addObserver"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "post"]
+- !private ["So18NotificationCenterC", "removeObserver"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "new"]
+- !private ["Sq", "unknown"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "AVPlayerItemDidPlayToEndTime"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "failed"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "mistakePath"]
+- !private ["s16RawRepresentableP", "new"]
+- !private ["s16RawRepresentableP", "newKey"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "readyToPlay"]
+- !private ["s16RawRepresentableP", "unknown"]
+- ["s16RawRepresentableP", ""]
+- ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "new"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "first"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "first"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVURLAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTimeGetSeconds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTimeScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerPlayFinishNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerPlayPauseNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerPlayStartNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSKeyValueChangeKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_isPlaying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserversForPlayerItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addPeriodicTimeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleNotificationForPlayFinished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleObserveValueForLoadedTimeRanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleObserveValueForStatus"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPlaying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCMTimeZero"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "monitoringPlayProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pause"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playTimeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playerItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceCurrentItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seek"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vedioUrl"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "AVPlayerItemDidPlayToEndTime"]
+- ["s21_ObjectiveCBridgeableP", "Name"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "duration"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "newKey"]
+- !private ["s21_ObjectiveCBridgeableP", "start"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "unknown"]
+- !private ["s22_RandomAccessIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "AVPlayerItemDidPlayToEndTime"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "newKey"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So7AVAssetC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- !private "So21AVContentKeyRecipientP"
+- "So8AVPlayerC"
+- !private "So12AVPlayerItemC"
+- !private "SC14AVPlayerStatusO"
+- !private "So10AVURLAssetC"
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "SC6CMTimeV"
+- !private "SC11CMTimeRangeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s5Int32V"
+- "s25LosslessStringConvertibleP"
+- "14MTAVPlayerView0A8DelegateP"
+- "14MTAVPlayerView0A5ErrorO"
+- "14MTAVPlayerView0A7ManagerC"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "SC19NSKeyValueChangeKeyV"
+- !private "SC26NSKeyValueObservingOptionsV"
+- "So16NSMutableCopyingP"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "So14NSNotificationC4NameV"
+- "10Foundation12NotificationV"
+- !private "So18NotificationCenterC"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7s/SwiftOnoneSupport.swiftmodule"
+- "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView/MTAVPlayerView.h"
+- "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/build/MTAVPlayerView.build/Debug-iphoneos/MTAVPlayerView.build/unextended-module.modulemap"
+interface-hash: "e0018bd8c1c590e4e6779c3d6827727b"

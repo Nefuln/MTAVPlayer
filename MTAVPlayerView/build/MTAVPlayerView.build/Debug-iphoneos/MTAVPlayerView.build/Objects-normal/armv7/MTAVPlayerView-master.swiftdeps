@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "d396f2870c5a3a55aadc4514e86e5594"
+build_time: [1522824482, 454928000]
+inputs:
+  "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView/MTAVPlayerDownload.swift": [1522314650, 0]
+  "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView/MTAVPlayerManager.swift": [1522735646, 0]
+  "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView/MTAVPlayerStorage.swift": [1522824441, 0]
+  "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView.swift": [1522684215, 0]

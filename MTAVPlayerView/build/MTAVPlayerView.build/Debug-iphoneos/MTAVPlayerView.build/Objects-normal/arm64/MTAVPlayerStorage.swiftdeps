@@ -1,0 +1,424 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MTAVPlayerStorage"
+provides-nominal:
+- "14MTAVPlayerView0A7StorageC"
+provides-member:
+- ["14MTAVPlayerView0A7StorageC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "+"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "FileManager"
+- "MTAVPlayerDownload"
+- "MTAVPlayerStorage"
+- "NSObject"
+- "NSSearchPathForDirectoriesInDomains"
+- !private "NSString"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+depends-member:
+- ["Sa", "first"]
+- ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "FileManager"]
+- ["s7CVarArgP", "MTAVPlayerCompletionBlock"]
+- !private ["s7CVarArgP", "MTAVPlayerDownload"]
+- ["s7CVarArgP", "MTAVPlayerProgressBlock"]
+- ["s7CVarArgP", "NSSearchPathForDirectoriesInDomains"]
+- ["s7CVarArgP", "SearchPathDirectory"]
+- ["s7CVarArgP", "SearchPathDomainMask"]
+- !private ["s7CVarArgP", "_cachePath"]
+- !private ["s7CVarArgP", "appendingPathComponent"]
+- !private ["s7CVarArgP", "cachePath"]
+- !private ["s7CVarArgP", "createDirectory"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "defaultCachePath"]
+- !private ["s7CVarArgP", "download"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "filePath"]
+- !private ["s7CVarArgP", "fileUrl"]
+- ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lastPathComponent"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "FileManager"]
+- ["s28CustomDebugStringConvertibleP", "MTAVPlayerCompletionBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "MTAVPlayerDownload"]
+- ["s28CustomDebugStringConvertibleP", "MTAVPlayerProgressBlock"]
+- ["s28CustomDebugStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- ["s28CustomDebugStringConvertibleP", "SearchPathDirectory"]
+- ["s28CustomDebugStringConvertibleP", "SearchPathDomainMask"]
+- !private ["s28CustomDebugStringConvertibleP", "_cachePath"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "cachePath"]
+- !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultCachePath"]
+- !private ["s28CustomDebugStringConvertibleP", "download"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "filePath"]
+- !private ["s28CustomDebugStringConvertibleP", "fileUrl"]
+- ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "FileManager"]
+- ["s23CustomStringConvertibleP", "MTAVPlayerCompletionBlock"]
+- !private ["s23CustomStringConvertibleP", "MTAVPlayerDownload"]
+- ["s23CustomStringConvertibleP", "MTAVPlayerProgressBlock"]
+- ["s23CustomStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- ["s23CustomStringConvertibleP", "SearchPathDirectory"]
+- ["s23CustomStringConvertibleP", "SearchPathDomainMask"]
+- !private ["s23CustomStringConvertibleP", "_cachePath"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "cachePath"]
+- !private ["s23CustomStringConvertibleP", "createDirectory"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "defaultCachePath"]
+- !private ["s23CustomStringConvertibleP", "download"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "filePath"]
+- !private ["s23CustomStringConvertibleP", "fileUrl"]
+- ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "first"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "first"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "FileManager"]
+- ["s9EquatableP", "MTAVPlayerCompletionBlock"]
+- !private ["s9EquatableP", "MTAVPlayerDownload"]
+- ["s9EquatableP", "MTAVPlayerProgressBlock"]
+- ["s9EquatableP", "NSSearchPathForDirectoriesInDomains"]
+- ["s9EquatableP", "SearchPathDirectory"]
+- ["s9EquatableP", "SearchPathDomainMask"]
+- !private ["s9EquatableP", "_cachePath"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "cachePath"]
+- ["s9EquatableP", "cachesDirectory"]
+- !private ["s9EquatableP", "createDirectory"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "defaultCachePath"]
+- !private ["s9EquatableP", "download"]
+- !private ["s9EquatableP", "fileExists"]
+- !private ["s9EquatableP", "filePath"]
+- !private ["s9EquatableP", "fileUrl"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lastPathComponent"]
+- ["s9EquatableP", "userDomainMask"]
+- ["s9EquatableP", ""]
+- ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appendingPathComponent"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lastPathComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "appendingPathComponent"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lastPathComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appendingPathComponent"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lastPathComponent"]
+- ["So11FileManagerC", "SearchPathDirectory"]
+- ["So11FileManagerC", "SearchPathDomainMask"]
+- !private ["So11FileManagerC", "createDirectory"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "fileExists"]
+- ["s8HashableP", "FileManager"]
+- ["s8HashableP", "MTAVPlayerCompletionBlock"]
+- !private ["s8HashableP", "MTAVPlayerDownload"]
+- ["s8HashableP", "MTAVPlayerProgressBlock"]
+- ["s8HashableP", "NSSearchPathForDirectoriesInDomains"]
+- ["s8HashableP", "SearchPathDirectory"]
+- ["s8HashableP", "SearchPathDomainMask"]
+- !private ["s8HashableP", "_cachePath"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "cachePath"]
+- ["s8HashableP", "cachesDirectory"]
+- !private ["s8HashableP", "createDirectory"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "defaultCachePath"]
+- !private ["s8HashableP", "download"]
+- !private ["s8HashableP", "fileExists"]
+- !private ["s8HashableP", "filePath"]
+- !private ["s8HashableP", "fileUrl"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lastPathComponent"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["14MTAVPlayerView0A8DownloadC", "MTAVPlayerCompletionBlock"]
+- ["14MTAVPlayerView0A8DownloadC", "MTAVPlayerProgressBlock"]
+- !private ["14MTAVPlayerView0A8DownloadC", "download"]
+- !private ["14MTAVPlayerView0A8DownloadC", "init"]
+- ["14MTAVPlayerView0A7StorageC", "Bool"]
+- ["14MTAVPlayerView0A7StorageC", "FileManager"]
+- ["14MTAVPlayerView0A7StorageC", "MTAVPlayerDownload"]
+- ["14MTAVPlayerView0A7StorageC", "NSSearchPathForDirectoriesInDomains"]
+- !private ["14MTAVPlayerView0A7StorageC", "NSString"]
+- ["14MTAVPlayerView0A7StorageC", "String"]
+- !private ["14MTAVPlayerView0A7StorageC", "_cachePath"]
+- ["14MTAVPlayerView0A7StorageC", "cachePath"]
+- !private ["14MTAVPlayerView0A7StorageC", "defaultCachePath"]
+- ["14MTAVPlayerView0A7StorageC", "deinit"]
+- ["14MTAVPlayerView0A7StorageC", "download"]
+- ["14MTAVPlayerView0A7StorageC", "filePath"]
+- !private ["14MTAVPlayerView0A7StorageC", "fileUrl"]
+- ["14MTAVPlayerView0A7StorageC", "init"]
+- ["14MTAVPlayerView0A7StorageC", "isExists"]
+- ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "first"]
+- !private ["So8NSCodingP", "appendingPathComponent"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lastPathComponent"]
+- !private ["So9NSCopyingP", "appendingPathComponent"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lastPathComponent"]
+- !private ["So21NSItemProviderReadingP", "appendingPathComponent"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "lastPathComponent"]
+- !private ["So21NSItemProviderWritingP", "appendingPathComponent"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "lastPathComponent"]
+- !private ["So16NSMutableCopyingP", "appendingPathComponent"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "lastPathComponent"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "MTAVPlayerCompletionBlock"]
+- ["So8NSObjectC", "MTAVPlayerDownload"]
+- ["So8NSObjectC", "MTAVPlayerProgressBlock"]
+- ["So8NSObjectC", "NSSearchPathForDirectoriesInDomains"]
+- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "SearchPathDirectory"]
+- ["So8NSObjectC", "SearchPathDomainMask"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "_cachePath"]
+- !private ["So8NSObjectC", "appendingPathComponent"]
+- ["So8NSObjectC", "cachePath"]
+- !private ["So8NSObjectC", "createDirectory"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "defaultCachePath"]
+- ["So8NSObjectC", "download"]
+- !private ["So8NSObjectC", "fileExists"]
+- ["So8NSObjectC", "filePath"]
+- ["So8NSObjectC", "fileUrl"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isExists"]
+- !private ["So8NSObjectC", "lastPathComponent"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "FileManager"]
+- ["So16NSObjectProtocolP", "MTAVPlayerCompletionBlock"]
+- !private ["So16NSObjectProtocolP", "MTAVPlayerDownload"]
+- ["So16NSObjectProtocolP", "MTAVPlayerProgressBlock"]
+- ["So16NSObjectProtocolP", "NSSearchPathForDirectoriesInDomains"]
+- ["So16NSObjectProtocolP", "SearchPathDirectory"]
+- ["So16NSObjectProtocolP", "SearchPathDomainMask"]
+- !private ["So16NSObjectProtocolP", "_cachePath"]
+- !private ["So16NSObjectProtocolP", "appendingPathComponent"]
+- !private ["So16NSObjectProtocolP", "cachePath"]
+- !private ["So16NSObjectProtocolP", "createDirectory"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "defaultCachePath"]
+- !private ["So16NSObjectProtocolP", "download"]
+- !private ["So16NSObjectProtocolP", "fileExists"]
+- !private ["So16NSObjectProtocolP", "filePath"]
+- !private ["So16NSObjectProtocolP", "fileUrl"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lastPathComponent"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "appendingPathComponent"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lastPathComponent"]
+- !private ["So8NSStringC", "appendingPathComponent"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "lastPathComponent"]
+- ["s9OptionSetP", "userDomainMask"]
+- ["s22RandomAccessCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "cachesDirectory"]
+- ["s16RawRepresentableP", "userDomainMask"]
+- ["So11FileManagerC19SearchPathDirectoryO", "cachesDirectory"]
+- ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
+- ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So18URLSessionDelegateP", "MTAVPlayerCompletionBlock"]
+- ["So18URLSessionDelegateP", "MTAVPlayerProgressBlock"]
+- !private ["So18URLSessionDelegateP", "download"]
+- !private ["So18URLSessionDelegateP", "init"]
+- ["So26URLSessionDownloadDelegateP", "MTAVPlayerCompletionBlock"]
+- ["So26URLSessionDownloadDelegateP", "MTAVPlayerProgressBlock"]
+- !private ["So26URLSessionDownloadDelegateP", "download"]
+- !private ["So26URLSessionDownloadDelegateP", "init"]
+- ["So22URLSessionTaskDelegateP", "MTAVPlayerCompletionBlock"]
+- ["So22URLSessionTaskDelegateP", "MTAVPlayerProgressBlock"]
+- !private ["So22URLSessionTaskDelegateP", "download"]
+- !private ["So22URLSessionTaskDelegateP", "init"]
+- ["s14_ArrayProtocolP", "first"]
+- ["s23_BidirectionalIndexableP", "first"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appendingPathComponent"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lastPathComponent"]
+- ["s10_IndexableP", "first"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "first"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerCompletionBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerDownload"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MTAVPlayerProgressBlock"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSSearchPathForDirectoriesInDomains"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SearchPathDirectory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SearchPathDomainMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_cachePath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendingPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cachePath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultCachePath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "download"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filePath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileUrl"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastPathComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s17_MutableIndexableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s22_RandomAccessIndexableP", "first"]
+- ["s26_RangeReplaceableIndexableP", "first"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11FileManagerC"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "14MTAVPlayerView0A8DownloadC"
+- "14MTAVPlayerView0A7StorageC"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s9OptionSetP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "So11FileManagerC19SearchPathDirectoryO"
+- "So11FileManagerC20SearchPathDomainMaskV"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So18URLSessionDelegateP"
+- "So26URLSessionDownloadDelegateP"
+- "So22URLSessionTaskDelegateP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/MTAVPlayerView/MTAVPlayerView.h"
+- "/Users/nolan/Desktop/ZT/HYMusic/MTAVPlayerView/build/MTAVPlayerView.build/Debug-iphoneos/MTAVPlayerView.build/unextended-module.modulemap"
+interface-hash: "594bc5dc757e191f9403aac22bda6c32"
